@@ -3,7 +3,7 @@ title: "LIFFアプリの作成"
 ---
 
 ## 4.1 LIFFアプリ用新規チャネルを作成する
-LINE DeveloperページへアクセスしてLINEログインしてください。
+LINE DeveloperページへアクセスしてLINEログインしてください。ss
     
 https://developers.line.biz/ja/
     
