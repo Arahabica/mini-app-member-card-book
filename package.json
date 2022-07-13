@@ -1,0 +1,13 @@
+{
+  "name": "line-member-card-book",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Arahabica <r.sasage@gmail.com>",
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+  },
+  "devDependencies": {
+    "zenn-cli": "^0.1.114"
+  }
+}
