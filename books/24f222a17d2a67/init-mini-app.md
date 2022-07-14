@@ -71,11 +71,11 @@ https://developers.line.biz/ja/
 ここで表示される`LIFF URL` がミニアプリのURLになります。
 今回は開発用しか使いませんので、 開発用の`LIFF URL`をメモしてください。
 
-次に開発用のエンドポイントURLの`編集`をクリックして、前章で作成したCloudFrontのURL( *https://***********.cloudfront.net* )を設定します。
+次に開発用のエンドポイントURLの`編集`をクリックして、前章で作成したCloudFrontのURL( `https://***********.cloudfront.net` )を設定します。
 
 これで、LINEミニアプリはひとまず完成です🎉
 
-早速、開発用のLIFF URL(*https://* *liff.line.me/*******)にアクセスしてください。
+早速、開発用のLIFF URL(`https://liff.line.me/*******`)にアクセスしてください。
 
 すると、こちらのような画面になると思います。
 
