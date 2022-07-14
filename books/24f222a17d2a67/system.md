@@ -2,7 +2,7 @@
 title: "システム構成"
 ---
 
-この章ではシステム構成を説明し、実際に
+この章ではシステム構成を説明し、Webアプリをデプロイするところまで行います。
 
 ## 3.1 システム構成図
 
@@ -225,7 +225,7 @@ ec2-user:~/environment/line-
 下図のようなページが表示されれば成功です🎉
 ![Nuxt default](https://storage.googleapis.com/zenn-user-upload/dqm055305czd9hm5ryw63ifec8pt)
 
-こちら、Nuxt.jsのデフォルトのページになります。
+こちらはNuxt.jsのデフォルトのページになります。
 
 次章ではこのWebページをLINEミニアプリとして登録していきます。
 
