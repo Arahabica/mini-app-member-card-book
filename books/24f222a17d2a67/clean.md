@@ -13,8 +13,8 @@ $ sls remove
 ## 6.2 Cloud9の環境を削除
 Cloud9の管理画面から今回作成した環境を削除してください。
 
-## 6.3 AWS Systems Manager Parameter Storeのパラメータの削除
-AWS Systems Manager Parameter StoreだけStackの外にあるので、AWS Systems Manager Parameter Storeの画面でパラメータを削除してください。
+## 6.3 AWS Systems Manager パラメーターストアのパラメータの削除
+AWS Systems Manager パラメーターストアだけStackの外にあるので、AWS Systems Manager パラメーターストアの画面でパラメータを削除してください。
 
 ## 6.4 デプロイ用Bucketの削除
 
