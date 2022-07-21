@@ -16,6 +16,7 @@ https://console.aws.amazon.com/
 
 #### 2.1.3 Cloud9の環境を構築
 * Nameに適当な環境名を入れてください。
+    * 例) line-member-card
 * 他のパラメータはデフォルトのままでOKです。
   ![Cloud9 Setting](https://storage.googleapis.com/zenn-user-upload/zncb747qif31wjvj0b7ddjeacllm)
 
@@ -45,7 +46,7 @@ $ export NODE_OPTIONS="--max-old-space-size=1024"
 
 Node.jsのパッケージマネージャの`yarn`をインストールします
 ```sh:~/environment/line-member-card-hands-on
- $ npm install --global yarn
+ $ npm install --location=global yarn
  ```
 
 
@@ -53,6 +54,6 @@ Node.jsのパッケージマネージャの`yarn`をインストールします
 Serverless Frameworkとはサーバレスなアプリケーションを構成管理デプロイするためのツールです。
 
 ```sh:~/environment/line-member-card-hands-on
- $ npm install --global serverless@3.20
+ $ npm install --location=global serverless@3.20
  ```
  

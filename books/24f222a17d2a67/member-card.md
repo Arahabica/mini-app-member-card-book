@@ -350,7 +350,7 @@ const qrOption = {
 そして、18行目でQRコードを表示しています。
 ここでは、ユーザのLINE IDを直接表示しています。
 ```html:~/environment/line-mini-app-hands-on/frontend/pages/index.vue[18]
-<vue-qrcode :value="profile.userId" :options="qrOption" tag="img" class="qr-code"/>
+<vue-qrcode :value="userId" :options="qrOption" tag="img" class="qr-code"/>
 ```
 
 #### 5.2.3 ユーザのIDトークンをサーバに送信
