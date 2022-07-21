@@ -4,7 +4,7 @@ title: "会員証の作成"
 
 この章ではLINEミニアプリで会員証を実際に作成し、動かすところまで進めていきます。
 
-## 5.1 AWS Systems Manager Parameter Storeにミニアプリの設定情報を保存する
+## 5.1 AWS Systems Manager パラメーターストアにミニアプリの設定情報を保存する
 
 AWS Systems Manager Parameter StoreとはAWSが提供する設定データを管理するためのサービスです。
 このサービスを使うことによってプログラム中に設定情報を直書きせずにすみ、gitもクリーンな状態に保たれます。
@@ -17,40 +17,40 @@ https://console.aws.amazon.com/
 #### 5.1.2 AWS Systems Managerの画面に移動
 * 検索フォームに`Systems Manager`と入れると見つけることができます。
 
-#### 5.1.3 AWS Systems Manager Parameter Storeの画面に移動
-* [Parameter Store]をクリック
-  ![AWS Systems Manager](https://storage.googleapis.com/zenn-user-upload/ecrp6vwpxscrrpg1427ralqjexfg)
+#### 5.1.3 AWS Systems Manager パラメーターストアの画面に移動
+* [パラメータストア]をクリック
+  ![AWS Systems Manager](/images/b01.png)
 
 #### 5.1.4 新しいパラメータの登録
-* [Create Parameter]をクリック
-  ![AWS Systems Manager Parameter Store](https://storage.googleapis.com/zenn-user-upload/x7ccva2we9lcjbhkd1n866a0i86l)
+* [パラメータの作成]をクリック
+  ![AWS Systems Manager Parameter Store](/images/b02.png)
 
 #### 5.1.4 LINE Channel IDの登録
 まず、LINE Channel IDを登録します。
 項目を入力していきます。
-* Name
+* 名前
     * /dev/{{サービス名}}/LINE_CHANNEL_ID
     * {{サービス名}}にはserverless.ymlの最初の行に設定されている値を入れてください。
-* Data Type
+* タイプ
     * text
-* Value
+* 値
     * 4.2でメモしたLINE Channel ID
 
-![Setting LINE Channel ID](https://storage.googleapis.com/zenn-user-upload/kaynsjo8fhlvoa9p73xr8qjat5kp)
+![Setting LINE Channel ID](/images/b03.png)
 
 #### 5.1.5 LIFF IDの登録
 LIFF IDを登録します。
 項目を入力していきます。
-* Name
+* 名前
     * /dev/{{サービス名}}/LIFF_ID
     * {{サービス名}}にはserverless.ymlの最初の行に設定されている値を入れてください。
-* Data Type
+* タイプ
     * text
-* Value
+* 値
     * 4.2でメモした開発用LIFF URLのhttps://liff.line.me/移行の文字列がLIFF IDになります。
     * LIFF URLが`https://liff.line.me/1657239651-4MOr6aYa`の場合、`1657239651-4MOr6aYa`がLIFF IDになります。
 
-![Setting LIFF_ID](https://storage.googleapis.com/zenn-user-upload/tlrp7jlcl1bapd6nccfja03c4n49)
+![Setting LIFF_ID](/images/b04.png)
 
 これで、AWS Systems Manager Parameter Storeの設定は完了です🎉
 
