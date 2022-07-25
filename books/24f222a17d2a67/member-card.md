@@ -19,11 +19,11 @@ https://console.aws.amazon.com/
 
 #### 5.1.3 AWS Systems Manager パラメーターストアの画面に移動
 * [パラメータストア]をクリック
-  ![AWS Systems Manager](/images/b01.png)
+  ![AWS Systems Manager](/images/b001.png)
 
 #### 5.1.4 新しいパラメータの登録
 * [パラメータの作成]をクリック
-  ![AWS Systems Manager Parameter Store](/images/b02.png)
+  ![AWS Systems Manager Parameter Store](/images/b002.png)
 
 #### 5.1.4 LINE Channel IDの登録
 まず、LINE Channel IDを登録します。
@@ -36,7 +36,7 @@ https://console.aws.amazon.com/
 * 値
     * 4.2でメモしたLINE Channel ID
 
-![Setting LINE Channel ID](/images/b03.png)
+![Setting LINE Channel ID](/images/b003.png)
 
 #### 5.1.5 LIFF IDの登録
 LIFF IDを登録します。
@@ -50,7 +50,7 @@ LIFF IDを登録します。
     * 4.2でメモした開発用LIFF URLのhttps://liff.line.me/移行の文字列がLIFF IDになります。
     * LIFF URLが`https://liff.line.me/1657239651-4MOr6aYa`の場合、`1657239651-4MOr6aYa`がLIFF IDになります。
 
-![Setting LIFF_ID](/images/b04.png)
+![Setting LIFF_ID](/images/b004.png)
 
 これで、AWS Systems Manager Parameter Storeの設定は完了です🎉
 
