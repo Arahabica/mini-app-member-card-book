@@ -12,13 +12,14 @@ https://console.aws.amazon.com/
 
 #### 2.1.2 Cloud9の画面に移動
 * 検索フォームに`Cloud9`と入れると見つけることができます。
-  ![Cloud9 TOP](https://storage.googleapis.com/zenn-user-upload/i3fk1vaz027jmro09uvvkm8iybo0)
+* リージョンは東京を選択してください。
+  ![Cloud9 TOP](/images/cloud9_01.png)
 
 #### 2.1.3 Cloud9の環境を構築
 * Nameに適当な環境名を入れてください。
     * 例) line-member-card
 * 他のパラメータはデフォルトのままでOKです。
-  ![Cloud9 Setting](https://storage.googleapis.com/zenn-user-upload/zncb747qif31wjvj0b7ddjeacllm)
+  ![Cloud9 Setting](/images/cloud9_02.png)
 
 
 #### 2.1.4 Cloud9の環境の完成🎉

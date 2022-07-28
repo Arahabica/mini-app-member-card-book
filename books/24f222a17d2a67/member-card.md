@@ -16,6 +16,7 @@ https://console.aws.amazon.com/
 
 #### 5.1.2 AWS Systems Managerの画面に移動
 * 検索フォームに`Systems Manager`と入れると見つけることができます。
+* リージョンは東京を選択してください
 
 #### 5.1.3 AWS Systems Manager パラメーターストアの画面に移動
 * [パラメータストア]をクリック
